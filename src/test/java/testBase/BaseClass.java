@@ -44,6 +44,7 @@ public class BaseClass {
 		{
 		//ChromeOptions options=new ChromeOptions();
 		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
+		//options.addArguments("--headless=new");
 		//driver=new ChromeDriver(options);
 		driver=new ChromeDriver();
 		}
