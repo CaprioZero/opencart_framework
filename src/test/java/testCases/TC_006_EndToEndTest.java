@@ -1,6 +1,3 @@
-/**
- * 
- */
 package testCases;
 
 import org.testng.annotations.Test;
@@ -19,6 +16,7 @@ public class TC_006_EndToEndTest extends BaseClass {
 
 	@Test(groups = { "Regression" })
 	public void endToendTest() throws InterruptedException {
+		logger.info(" Starting TC_006_EndToEndTest ");
 		// Soft assertions
 		SoftAssert myassert = new SoftAssert();
 
@@ -134,6 +132,7 @@ public class TC_006_EndToEndTest extends BaseClass {
 		myassert.assertEquals(ch.isOrderPlaced(), true);
 
 		myassert.assertAll(); // conclusion
+		logger.info(" Finished TC_006_EndToEndTest ");
 	}
 
 }

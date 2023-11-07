@@ -13,7 +13,6 @@ public class ShoppingCartPage extends BasePageFactory {
 		js=(JavascriptExecutor) driver;
 	}
 
-	// @FindBy(xpath="//button[@aria-expanded='false']")
 	@FindBy(xpath = "(//div[@id='header-cart']//child::button)[1]")
 	WebElement btnItems;
 

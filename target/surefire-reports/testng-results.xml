@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T21:53:27 ICT" name="Suite" finished-at="2023-11-06T21:55:43 ICT" duration-ms="136000">
+  <suite started-at="2023-11-07T21:42:08 ICT" name="Suite" finished-at="2023-11-07T21:44:26 ICT" duration-ms="137917">
     <groups>
       <group name="Master">
-        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a451d4d]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@71809907]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@15ff3e9e]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@6aba2b86]" name="test_Login" class="testCases.TC_002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@71809907]" name="test_Login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_004_SearchProductTest.test_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@158da8e]" name="test_pruductSearch" class="testCases.TC_004_SearchProductTest"/>
-        <method signature="TC_005_AddToCartPageTest.test_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@7c729a55]" name="test_addToCart" class="testCases.TC_005_AddToCartPageTest"/>
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@6aba2b86]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_SearchProductTest.test_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@47af7f3d]" name="test_pruductSearch" class="testCases.TC_004_SearchProductTest"/>
+        <method signature="TC_005_AddToCartPageTest.test_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@661972b0]" name="test_addToCart" class="testCases.TC_005_AddToCartPageTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a451d4d]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_003_LoginDataDrivenTest.test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" name="test_LoginDDT" class="testCases.TC_003_LoginDataDrivenTest"/>
-        <method signature="TC_006_EndToEndTest.endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@3bb9a3ff]" name="endToendTest" class="testCases.TC_006_EndToEndTest"/>
+        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@15ff3e9e]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_003_LoginDataDrivenTest.test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" name="test_LoginDDT" class="testCases.TC_003_LoginDataDrivenTest"/>
+        <method signature="TC_006_EndToEndTest.endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@5af3afd9]" name="endToendTest" class="testCases.TC_006_EndToEndTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-11-06T21:53:27 ICT" name="Test" finished-at="2023-11-06T21:55:43 ICT" duration-ms="136000">
+    <test started-at="2023-11-07T21:42:08 ICT" name="Test" finished-at="2023-11-07T21:44:26 ICT" duration-ms="137917">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a451d4d]" started-at="2023-11-06T21:53:28 ICT" name="setup" finished-at="2023-11-06T21:53:33 ICT" duration-ms="5053" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@15ff3e9e]" started-at="2023-11-07T21:42:08 ICT" name="setup" finished-at="2023-11-07T21:42:14 ICT" duration-ms="6191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,17 +32,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a451d4d]" started-at="2023-11-06T21:53:33 ICT" name="test_account_Registration" finished-at="2023-11-06T21:53:35 ICT" duration-ms="2587" status="PASS">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@15ff3e9e]" started-at="2023-11-07T21:42:14 ICT" name="test_account_Registration" finished-at="2023-11-07T21:42:17 ICT" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@1a451d4d]" started-at="2023-11-06T21:53:35 ICT" name="tearDown" finished-at="2023-11-06T21:53:36 ICT" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@15ff3e9e]" started-at="2023-11-07T21:42:17 ICT" name="tearDown" finished-at="2023-11-07T21:42:17 ICT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@71809907]" started-at="2023-11-06T21:53:36 ICT" name="setup" finished-at="2023-11-06T21:53:38 ICT" duration-ms="2478" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@6aba2b86]" started-at="2023-11-07T21:42:17 ICT" name="setup" finished-at="2023-11-07T21:42:20 ICT" duration-ms="2304" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,17 +53,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@71809907]" started-at="2023-11-06T21:53:38 ICT" name="test_Login" finished-at="2023-11-06T21:53:40 ICT" duration-ms="2210" status="PASS">
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@6aba2b86]" started-at="2023-11-07T21:42:20 ICT" name="test_Login" finished-at="2023-11-07T21:42:22 ICT" duration-ms="2023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@71809907]" started-at="2023-11-06T21:53:40 ICT" name="tearDown" finished-at="2023-11-06T21:53:41 ICT" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@6aba2b86]" started-at="2023-11-07T21:42:22 ICT" name="tearDown" finished-at="2023-11-07T21:42:22 ICT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_LoginTest -->
       <class name="testCases.TC_005_AddToCartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartPageTest@7c729a55]" started-at="2023-11-06T21:54:36 ICT" name="setup" finished-at="2023-11-06T21:54:38 ICT" duration-ms="2489" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartPageTest@661972b0]" started-at="2023-11-07T21:43:19 ICT" name="setup" finished-at="2023-11-07T21:43:21 ICT" duration-ms="2277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,17 +74,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@7c729a55]" started-at="2023-11-06T21:54:38 ICT" name="test_addToCart" finished-at="2023-11-06T21:54:41 ICT" duration-ms="2744" status="PASS">
+        <test-method signature="test_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@661972b0]" started-at="2023-11-07T21:43:21 ICT" name="test_addToCart" finished-at="2023-11-07T21:43:24 ICT" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@7c729a55]" started-at="2023-11-06T21:54:41 ICT" name="tearDown" finished-at="2023-11-06T21:54:42 ICT" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@661972b0]" started-at="2023-11-07T21:43:24 ICT" name="tearDown" finished-at="2023-11-07T21:43:25 ICT" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_005_AddToCartPageTest -->
       <class name="testCases.TC_004_SearchProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_SearchProductTest@158da8e]" started-at="2023-11-06T21:54:31 ICT" name="setup" finished-at="2023-11-06T21:54:34 ICT" duration-ms="2443" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_SearchProductTest@47af7f3d]" started-at="2023-11-07T21:43:14 ICT" name="setup" finished-at="2023-11-07T21:43:16 ICT" duration-ms="2436" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,17 +95,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@158da8e]" started-at="2023-11-06T21:54:34 ICT" name="test_pruductSearch" finished-at="2023-11-06T21:54:36 ICT" duration-ms="1768" status="PASS">
+        <test-method signature="test_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@47af7f3d]" started-at="2023-11-07T21:43:16 ICT" name="test_pruductSearch" finished-at="2023-11-07T21:43:18 ICT" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_pruductSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_SearchProductTest@158da8e]" started-at="2023-11-06T21:54:36 ICT" name="tearDown" finished-at="2023-11-06T21:54:36 ICT" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_SearchProductTest@47af7f3d]" started-at="2023-11-07T21:43:18 ICT" name="tearDown" finished-at="2023-11-07T21:43:19 ICT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_004_SearchProductTest -->
       <class name="testCases.TC_006_EndToEndTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_EndToEndTest@3bb9a3ff]" started-at="2023-11-06T21:54:42 ICT" name="setup" finished-at="2023-11-06T21:54:44 ICT" duration-ms="2472" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_EndToEndTest@5af3afd9]" started-at="2023-11-07T21:43:25 ICT" name="setup" finished-at="2023-11-07T21:43:27 ICT" duration-ms="2325" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,17 +116,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@3bb9a3ff]" started-at="2023-11-06T21:54:44 ICT" name="endToendTest" finished-at="2023-11-06T21:55:43 ICT" duration-ms="58900" status="PASS">
+        <test-method signature="endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@5af3afd9]" started-at="2023-11-07T21:43:27 ICT" name="endToendTest" finished-at="2023-11-07T21:44:25 ICT" duration-ms="58522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToendTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_EndToEndTest@3bb9a3ff]" started-at="2023-11-06T21:55:43 ICT" name="tearDown" finished-at="2023-11-06T21:55:43 ICT" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_EndToEndTest@5af3afd9]" started-at="2023-11-07T21:44:25 ICT" name="tearDown" finished-at="2023-11-07T21:44:26 ICT" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_006_EndToEndTest -->
       <class name="testCases.TC_003_LoginDataDrivenTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:53:41 ICT" name="setup" finished-at="2023-11-06T21:53:43 ICT" duration-ms="2464" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:42:22 ICT" name="setup" finished-at="2023-11-07T21:42:24 ICT" duration-ms="2380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:53:45 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-06T21:53:56 ICT" duration-ms="11225" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:42:27 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-07T21:42:39 ICT" duration-ms="12490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:53:56 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-06T21:54:07 ICT" duration-ms="10861" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:42:39 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-07T21:42:50 ICT" duration-ms="10970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:54:07 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-06T21:54:18 ICT" duration-ms="10895" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:42:50 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-07T21:43:01 ICT" duration-ms="10960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:54:18 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-06T21:54:29 ICT" duration-ms="10961" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:43:01 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-07T21:43:12 ICT" duration-ms="10890" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:54:29 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-06T21:54:31 ICT" duration-ms="2021" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:43:12 ICT" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-11-07T21:43:14 ICT" duration-ms="1890" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,7 +242,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3ce1e309]" started-at="2023-11-06T21:54:31 ICT" name="tearDown" finished-at="2023-11-06T21:54:31 ICT" duration-ms="365" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@158da8e]" started-at="2023-11-07T21:43:14 ICT" name="tearDown" finished-at="2023-11-07T21:43:14 ICT" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
