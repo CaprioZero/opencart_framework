@@ -40,6 +40,8 @@ public class BaseClass {
 		
 		logger=LogManager.getLogger(this.getClass());  //logging
 		
+		System.setProperty("webdriver.http.factory", "jdk-http-client"); //fix Connection reset warning
+		
 		if(br.equals("chrome"))
 		{
 		//ChromeOptions options=new ChromeOptions();
